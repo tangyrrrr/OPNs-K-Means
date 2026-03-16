@@ -2,7 +2,10 @@ Numbers# K-means Clustering with Generalized Metrics Using OPNs
 
 This repository contains the official source code and experiment instructions for the paper: **"K-means Clustering with Generalized Metrics Using Ordered Pair of Normalized Real Numbers"**.
 
-This project introduces a novel K-means algorithm (OPNs-K-means) that utilizes Ordered Pairs of Normalized real numbers (OPNs) to explore data in a non-real domain. This approach enhances clustering performance by capturing latent feature relationships through a custom OPN-valued generalized metric[cite: 8].
+This project introduces a novel K-means algorithm (OPNs-K-means) that utilizes Ordered Pairs of Normalized real numbers (OPNs) to explore data in a non-real domain. This approach enhances clustering performance by capturing latent feature relationships through a custom OPN-valued generalized metric.
+
+> **🌟 Related Work & Latest OPNs Framework**
+> For the latest version of the foundational OPNs framework and other related research, please visit the official repository: **[alvinzean/OPNs](https://github.com/alvinzean/OPNs)**.
 
 ## Core Contributions
 The primary contributions of this work are:
