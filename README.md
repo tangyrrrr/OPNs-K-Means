@@ -38,8 +38,6 @@ For the broader OPNs framework and related work, please refer to:
 └── README.md
 ```
 
-> **Note:** The filename `Badeline_Cos.py` is written here to match the current repository content. If it is later renamed to `Baseline_Cos.py`, please update this README accordingly.
-
 ## Method Variants
 
 The paper evaluates two configurations of the proposed method:
@@ -48,7 +46,7 @@ The paper evaluates two configurations of the proposed method:
   This variant models interpretable second-order feature interactions through non-redundant feature pairing. It is applied to datasets with fewer than 10 features (DS1–DS12).
 
 - **OPNs-K-means(b) (Hybrid Pairing Strategy):**  
-  This variant is applied to datasets DS6–DS23. It uses relational pairing with feature reuse for low-dimensional data (`d <= 5`) and dynamically switches to bidirectional stepwise selection for higher-dimensional data (`d > 5`) to control combinatorial complexity.
+  This variant is applied to all datasets. It uses relational pairing with feature reuse for low-dimensional data (`d <= 5`) and dynamically switches to bidirectional stepwise selection for higher-dimensional data (`d > 5`) to control combinatorial complexity.
 
 ## Requirements
 
